@@ -1,0 +1,58 @@
+body {
+  background: rgb(139,87,66);
+  color:white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  main {
+      margin: 0;
+      width: 50vw;
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 10px;
+      width: auto;
+      flex-direction: row;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;  
+    }
+  
+    li {
+      text-decoration: none;
+      display: flex;
+      padding: 15px 100px;
+      justify-content: center;
+      text-decoration: none;
+      background-color:#fff6e4 ;
+      color: white;
+      border:10px
+      
+    }
+
+  article {
+    background: white;
+    padding: 2em;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+ 
+
+  
+  p.favoriet {
+    border: 1px solid bisque; ;
+    padding: 0.5em;
+    margin: 1.5em 0.5em 1em 2em;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+
+  }
