@@ -20,15 +20,22 @@ body {
       text-align: center;
       display: flex;
       justify-content: space-around;  
+      text-decoration: none;
     }
   
     li {
       text-decoration: none;
-      display: block;
-      padding: 15px 142px;
+      display: flex;
+      padding: 15px 100px;
+      justify-content: center;
       text-decoration: none;
       background-color:#fff6e4 ;
       color: white;
       border:10px
       
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
     }
