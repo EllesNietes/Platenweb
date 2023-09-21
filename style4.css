@@ -33,12 +33,6 @@ body {
 
      }
       
-     li a, a:link, a:visited, a:active {
-      color: #FFF;
-      text-decoration: none;
-      font-weight: bold;
-     }
-      
      ul li a:hover {
       color: #FFF;
       border-bottom: 3px solid #FFF;
@@ -46,6 +40,6 @@ body {
 
     a {
       text-decoration: none;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       
     }
