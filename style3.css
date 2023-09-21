@@ -1,10 +1,17 @@
 body {
-  background: rgb(139,87,66);
+  background: #4b0000;
   color:white;
   }
 
   h1 {
     text-align: center;
+    margin: 0px;
+    width:auto;
+    background-color: #d02a2a;
+    text-align: center;
+    font-family: Trebuchet MS;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   
   main {
@@ -13,17 +20,12 @@ body {
     }
     
     nav {
-      padding: 0;
-      margin: 0;
-      font-family: Trebuchet MS;
-     }
-      
-    nav {
       margin: 0px;
       padding: 10px;
       border: 1px solid black;
-      background-color: #472a18;
+      background-color: #6f0000;
       text-align: center;
+      font-family: Trebuchet MS;
      }
      
 
@@ -38,7 +40,11 @@ body {
       border-bottom: 3px solid #FFF;
      }
 
+
+
     a {
       text-decoration: none;
       color: rgb(255, 255, 255);
-    }
+      margin-inline: 90px;
+      
+  }
