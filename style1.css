@@ -2,28 +2,28 @@ body {
   background: rgba(126, 180, 132, 0.553);
   color:white;
   margin: 0;
+
   
   }
   
- 
 
 
   h1 {
     text-align: center;
-    margin: 0px;
+    margin: 0em;
     width:auto;
     background-color: #53835e;
     text-align: center;
     font-family: Trebuchet MS;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 1.0000em;
+    padding-top: 1.0000em;
   }
   
   
     nav {
-      margin: 0px;
-      padding: 10px;
-      border: 1px solid black;
+      margin: 0em;
+      padding: 0.6250em;
+      border: 0.0625em solid black;
       background-color: #193824;
       text-align: center;
       font-family: Trebuchet MS;
@@ -32,13 +32,13 @@ body {
 
      ul li {
       display: inline;
-      padding: 0 5px;
+      padding: 0 0.3125em;
 
      }
       
      ul li a:hover {
       color: #62ac58;
-      border-bottom: 3px solid #62ac58;
+      border-bottom: 0.1875em solid hsl(113, 34%, 51%);
      }
 
      a:visited:active {
@@ -48,45 +48,84 @@ body {
     a {
       text-decoration: none;
       color: rgb(255, 255, 255);
-      margin-inline: 90px;
+      margin-inline: 5.625em;
      }
 
 
 
   .favoriet {
-    border: 1px solid bisque; ;
-    padding: 20px;
-    background-color: bisque;
+    display: flex;
+    flex-wrap: nowrap;
+    border: rgb(31, 95, 64);
+    padding-top: 1.25em; 
+    padding-bottom: 1.25em;
+    background-color: rgb(31, 95, 64);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 0px;
+    margin-left: 28.75em;
+    margin-right: 28.75em;
+    margin-top: 4em;
+    color: rgb(255, 255, 255);
+    flex-direction:row;
+    justify-content: center;
+
+  }
+
+
+
+  .foto-favoriet {
+     max-width: 15em;
+      max-height: 15em;
+      position:inherit;
+      justify-content: center;
+      display: flex;
+      object-fit: contain;
+      align-items:end;      
+      
+          }
+  
+
+  article {
+    padding: 2em;
+    margin-top: o;
+    margin-bottom: 5vh;
     color: black;
 
   }
 
-  img.favoriet {
-      width: 100%;
-      position: absolute;
-      right: 100px;
-      justify-content: flex-end;
-      display: flex;
+  .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 
-    }
   
-
-  article {
-    background: rgb(0, 0, 0);
-    padding: 2em;
-    margin-top: o;
-    margin-bottom: 5vh;
-
+  
+  
   }
 
-  p.Kid{
+  .container .card {
+    width: 19.25em;
+    position: relative;
+    height: 20em;
+    background: white;
+    margin: 1.875em 0.625em;
+    padding: 1.25em 0.9375em;
+    display: flex;
+    flex-direction:column;
     flex: content;
+    margin-top: 3%;  
+    text-align: center;
   }
 
 
+
+.container img {
+  width: 15em;
+  height: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
