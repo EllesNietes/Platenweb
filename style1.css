@@ -1,6 +1,6 @@
 body {
   background: rgba(126, 180, 132, 0.553);
-  color:white;
+  color:rgb(0, 0, 0);
   margin: 0;  
   }
   
@@ -16,7 +16,11 @@ body {
     padding-bottom: 1.0000em;
     padding-top: 1.0000em;
   }
-  
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
   
     nav {
       margin: 0em;
@@ -56,16 +60,27 @@ body {
     border: rgb(31, 95, 64);
     padding-top: 1.25em; 
     padding-bottom: 1.25em;
+    padding-left: 8em;
+    padding-right: 8em;
+    width: fit-content;
     background-color: rgb(31, 95, 64);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    margin-left: 28.75em;
-    margin-right: 28.75em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
     margin-top: 4em;
     color: rgb(255, 255, 255);
     flex-direction:row;
     justify-content: center;
+  
+  }
 
+  .tekst-links {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+   
   }
 
   .foto-favoriet {
@@ -79,13 +94,13 @@ body {
       margin-left: 3em;    
     }
           
-  
 
   .card {
     padding: 2em;
     margin-top: o;
     margin-bottom: 5vh;
     color: black;
+    border-radius: 1em;
   }
 
   .favoriet p:nth-of-type(1) {
@@ -128,4 +143,108 @@ body {
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
+}
+
+/* Hieronder is de 2e webpagina*/
+
+.container-2 img {
+width: 15em;
+height: 15em;
+margin-left: auto;
+margin-right: auto;
+object-fit: contain;
+}
+
+
+/* Hieronder is de 3e wepagina*/
+
+
+.container-3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  }
+
+  .container-3 .card-3 {
+    width: 19.25em;
+    position: relative;
+    height: 20em;
+    background: white;
+    margin: 1.875em 0.625em;
+    padding: 1.25em 0.9375em;
+    display: flex;
+    flex-direction:column;
+    flex: content;
+    margin-top: 3%;  
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+
+
+.container-3 img {
+  width: 15em;
+  height: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.card-3 {
+  padding: 2em;
+  margin-top: o;
+  margin-bottom: 5vh;
+  color: black;
+  border-radius: 1em;
+}
+
+.kopjes-pagina-3 {
+  margin-top: 4em;
+}
+
+.container-4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  }
+
+  .container-4 .card-4 {
+    width: 19.25em;
+    position: relative;
+    height: 20em;
+    background: white;
+    margin: 1.875em 0.625em;
+    padding: 1.25em 0.9375em;
+    display: flex;
+    flex-direction:column;
+    flex: content;
+    margin-top: 3%;  
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
+
+
+.container-4 img {
+  width: 15em;
+  height: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.card-4 {
+  padding: 2em;
+  margin-top: o;
+  margin-bottom: 5vh;
+  color: black;
+  border-radius: 1em;
 }
