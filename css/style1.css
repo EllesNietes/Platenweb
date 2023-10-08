@@ -1,8 +1,13 @@
 header {
   color: white;
-  
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+*{
+  font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+  }
 
 
 
@@ -12,6 +17,7 @@ body {
   margin: 0;  
   }
   
+  
 
 
   h1 {
@@ -19,6 +25,7 @@ body {
     margin: 0em;
     width: auto;
     background-color: #53835e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-family: 'Playball', cursive;
     font-size: xxx-large;
     padding-bottom: 0.5em;
@@ -68,8 +75,8 @@ body {
         flex-direction: column;
         border: rgb(31, 95, 64);
         background-color: #193824;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(255, 255, 255);
+        text-align: center;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
@@ -90,7 +97,6 @@ body {
     padding-bottom: 1.25em;
     width: fit-content;
     background-color: rgb(31, 95, 64);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin-left: 30%;
     margin-right: 30%;
@@ -115,7 +121,7 @@ body {
   .foto-favoriet {
     max-width: 40%;
       max-height: 40%;
-      position:inherit;
+      position: inherit;
       justify-content: center;
       display: flex;
       object-fit: contain;
@@ -177,7 +183,6 @@ body {
   flex-direction: column;
   border: rgb(31, 95, 64);
   background-color: rgb(31, 95, 64);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
   margin-top: 1em;
   margin-bottom: 1em;
@@ -245,6 +250,7 @@ margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
+  
 }
 
 .card-3 {
@@ -307,18 +313,33 @@ margin: 0 auto;
 
 .foto-winkel {
   display: flex;
-  max-width: 10%;
-  max-height: 10%;
-  position:inherit;
-  justify-content: center;
+  width: 50%;
+  position: inherit;
+  justify-content: space-evenly;
+  align-items: end;
   object-fit: contain;
   align-items: end;
-  margin: auto;   
-  flex-direction: row;
-  
-  
-  
+  margin: auto; 
+  margin-right: 0%;  
+  flex-direction: row; 
+  flex-wrap: wrap;
 }
+
+.foto-winkel img {
+  width: 30%;
+   
+
+
+}
+
+  .tekst-winkel {
+  font-size: medium;
+  color: white;
+  width: fit-content;
+  }
+  
+  
+
 
 .container-5 {
   display: flex;
@@ -326,26 +347,28 @@ margin: 0 auto;
   border: rgba(31, 95, 64, 0);
   padding-top: 1.25em; 
   padding-bottom: 1.25em;
-  width: fit-content;
   background-color: rgba(31, 95, 64, 0);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3em;
   margin-top: 3em;
   color: rgb(255, 255, 255);
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
+  width: 70%;
 }
 
 .winkel-cards {
+display: flex;
+flex-direction:row;
 padding: 2em 2em;
 background-color: rgb(31, 95, 64);
 margin-top:  1%;
 margin-bottom: 10%;
-margin-left: 10%;
-margin-right: 10%;
+
+justify-content: center;
+
 }
 
 
