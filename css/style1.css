@@ -87,7 +87,7 @@ body {
      }
 
 
-/* hieronder in de 1e webpagina*/
+/* hieronder is de 1e webpagina*/
 
   .favoriet {
     display: flex;
@@ -188,27 +188,32 @@ body {
   margin-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
   padding-top: 0em;
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-
-
 }
 
 .biografie-cards {
   padding-top: 2em;
   padding-bottom: 2em;
- 
+  padding-left: 2%;
+  padding-right: 2%;
 }
+
+.link {
+  margin: 0;
+  padding: 0;
+  color: rgb(138, 138, 186);
+}
+
 .container-2 img {
 max-width: 95%;
-height: 20%;
+height: 30%;
 object-fit: contain;
-justify-items:center;
 display: block;
-margin: 0 auto;
+margin: 0 1%;
 
 }
 
@@ -327,10 +332,16 @@ margin: 0 auto;
 
 .foto-winkel img {
   width: 30%;
-   
-
-
 }
+
+iframe {
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+  display: block;
+  margin: 0 0;
+  padding-right: 0%;
+  }
 
   .tekst-winkel {
   font-size: medium;
@@ -370,7 +381,6 @@ margin-bottom: 10%;
 justify-content: center;
 
 }
-
 
 
 
