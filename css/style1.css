@@ -1,5 +1,4 @@
 header {
-  color: white;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -14,10 +13,8 @@ header {
   font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
 }
 
-
 body {
   background: rgba(126, 180, 132, 0.553);
-  color:rgb(0, 0, 0);
   margin: 0;  
 }
   
@@ -30,26 +27,26 @@ h1 {
   font-size: xxx-large;
   padding-bottom: 0.3em;
   padding-top: 0.3em;
+  color: white;
 }
 
 h2 {
 text-align: center;
 margin-top: 2em;
 margin-bottom: 2em;
+color: black;
 }
 
 nav {
-  margin: 0em;
-  padding: 0.6250em;
-  border: 0.0625em solid black;
+  padding: 0.6em;
+  border: 0.06em solid black;
   background-color: #193824;
   text-align: center;
-  font-family: Trebuchet MS;
 }
      
 ul li {
 display: inline;
-padding: 0 0.3125em;
+padding: 0 0.8em;
 }
 
 ul li a:hover {
@@ -57,20 +54,16 @@ color: #62ac58;
 border-bottom: 0.1875em solid hsl(113, 34%, 51%);
 }
 
-a:visited:active {
-color: rgb(255, 255, 255);
-}
-
 a {
 text-decoration: none;
 color: rgb(255, 255, 255);
-margin-inline: 5.625em;
+margin-inline: 5.5em;
 }
 
 footer {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  border: 0.0625em solid black;
+  border: 0.06em solid black;
   background-color: #193824;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -89,54 +82,37 @@ footer {
   padding-bottom: 1.25em;
   width: fit-content;
   background-color: rgb(31, 95, 64);
-  text-align: left;
+  text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 3em;
   margin-top: 3em;
   color: rgb(255, 255, 255);
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
 }
 
 .titel-favoriet {
   margin-top: 1em;
   margin-bottom: 0em;
+  color: white;
+  text-align: center;
 }
 
 .tekst-links {
   padding-top: 2em;
   padding-bottom: 2em;
+  color: white;
   
 }
 
 .foto-favoriet {
   max-width: 40%;
   max-height: 40%;
-  position: inherit;
-  justify-content: center;
   display: flex;
-  object-fit: contain;
-  align-items:end;  
+  object-fit: contain; 
   margin-left: 3em;    
 }
-    
-.favoriet p:nth-of-type(1) {
-  color: rgb(255, 255, 255);
-}
-
-.favoriet h3:nth-of-type(1) {
-  color: rgb(255, 255, 255);
-}
-
-.card {
-  padding: 2em;
-  margin-top: 0;
-  margin-bottom: 5vh;
-  color: black;
-  border-radius: 1em;
-}
-
 
 .container {
   display: flex;
@@ -146,18 +122,14 @@ footer {
   flex-wrap: wrap;
 }
 
-.container .card {
-  width: 19.25em;
-  position: relative;
-  height: 20em;
+.card {
   background: white;
-  margin: 1.875em 0.625em;
-  padding: 1.25em 0.9375em;
+  margin: 1.9em 0.6em;
+  padding: 1.25em 1em;
   display: flex;
-  flex-direction:column;
-  flex: content;
-  margin-top: 3%;  
+  flex-direction: column;
   text-align: center;
+  border-radius: 1em;
 }
 
 .container img {
@@ -173,7 +145,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding: 2em 2em;
   background-color: rgb(31, 95, 64);
@@ -182,42 +153,30 @@ footer {
 /* Hieronder is de 2e webpagina*/
 
 .container-2 {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  border: rgb(31, 95, 64);
   background-color: rgb(31, 95, 64);
   color: rgb(255, 255, 255);
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto;
   width: 60%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1em 1em;
 }
 
 .biografie-cards {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 2%;
   border: 0.099em solid rgb(13, 43, 29);
  
 }
 
 .link {
   margin: 0;
-  padding: 0;
   color: rgb(138, 138, 186);
+  word-break: break-word;
 }
 
 .container-2 img {
   max-width: 95%;
-  height: 30%;
   object-fit: contain;
-  display: block;
   margin: 0 1%;
 }
 
@@ -232,26 +191,18 @@ footer {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  
 }
 
-.container-3 .card-3 {
-  width: 19.25em;
-  position: relative;
-  height: 20em;
+.card-3 {
   background: white;
-  margin: 1.875em 0.625em;
-  padding: 1.25em 0.9375em;
+  margin: 1.9em 3em;
+  padding: 1.25em 0.9em;
   display: flex;
-  flex-direction:column;
-  flex: content;
-  margin-top: 3%;  
+  flex-direction:column;  
   text-align: center;
-  margin-left: 3em;
-  margin-right: 3em;
+  color: black;
+  border-radius: 1em;
 }
-
-
 
 .container-3 img {
   width: 15em;
@@ -259,14 +210,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
-}
-
-.card-3 {
-  padding: 2em;
-  margin-top: 0;
-  margin-bottom: 5vh;
-  color: black;
-  border-radius: 1em;
 }
 
 .kopjes-pagina-3 {
@@ -283,21 +226,16 @@ footer {
   
 }
 
-.container-4 .card-4 {
-  width: 19.25em;
-  position: relative;
-  height: 20em;
+.card-4 {
   background: white;
-  margin: 1.875em 0.625em;
-  padding: 1.25em 0.9375em;
+  margin: 1.9em 6em;
+  padding: 1.25em 0.9em;
   display: flex;
   flex-direction:column;
-  flex: content;
   margin-top: 3%;  
   text-align: center;
-  margin-left: 6em;
-  margin-right: 6em;
 }
+
 
 .container-4 img {
   width: 15em;
@@ -320,7 +258,6 @@ footer {
 .foto-winkel {
   display: flex;
   width: 50%;
-  position: inherit;
   justify-content: space-evenly;
   align-items: end;
   object-fit: contain;
@@ -339,9 +276,6 @@ iframe {
   width: 30%;
   height: 30%;
   object-fit: contain;
-  display: block;
-  margin: 0;
-  padding-right: 0%;
 }
 
 .tekst-winkel {
@@ -353,15 +287,10 @@ iframe {
 .container-5 {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 1.25em; 
-  padding-bottom: 1.25em;
+  padding: 1.25 0;
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3em;
-  margin-top: 3em;
+  margin: 3em auto;
   flex-direction: column;
-  justify-content: center;
   width: 70%;
 }
 
@@ -370,9 +299,8 @@ iframe {
   flex-direction: row;
   padding: 2em 2em;
   background-color: rgb(31, 95, 64);
-  margin-top:  2%;
-  margin-bottom: 10%;
-  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 
