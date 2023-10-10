@@ -133,7 +133,6 @@ footer {
 
 .container img {
   width: 15em;
-  height: 15em;
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
@@ -201,7 +200,6 @@ footer {
 
 .container-3 img {
   width: 15em;
-  height: 15em;
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
@@ -226,25 +224,19 @@ footer {
   padding: 1.25em 0.9em;
   display: flex;
   flex-direction:column;
-  margin-top: 3%;  
   text-align: center;
+  color: black;
+  border-radius: 1em;
 }
 
 .container-4 img {
   width: 15em;
-  height: 15em;
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
 }
 
-.card-4 {
-  padding: 2em;
-  margin-top: 0;
-  margin-bottom: 5vh;
-  color: black;
-  border-radius: 1em;
-}
+
 
 /* Hieronder is de 4e webpagina*/
 
@@ -252,11 +244,9 @@ footer {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
-  align-items: end;
   object-fit: contain;
-  align-items: end;
   margin: auto; 
-  margin-right: 0%;  
+  margin-right: 0%; 
   flex-direction: row; 
   flex-wrap: wrap;
 }
