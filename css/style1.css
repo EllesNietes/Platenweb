@@ -103,7 +103,6 @@ footer {
   padding-top: 2em;
   padding-bottom: 2em;
   color: white;
-  
 }
 
 .foto-favoriet {
@@ -165,7 +164,6 @@ footer {
 .biografie-cards {
   padding: 2%;
   border: 0.099em solid rgb(13, 43, 29);
- 
 }
 
 .link {
@@ -180,10 +178,7 @@ footer {
   margin: 0 1%;
 }
 
-
-
 /* Hieronder is de 3e wepagina*/
-
 
 .container-3 {
   display: flex;
@@ -223,7 +218,6 @@ footer {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  
 }
 
 .card-4 {
@@ -235,7 +229,6 @@ footer {
   margin-top: 3%;  
   text-align: center;
 }
-
 
 .container-4 img {
   width: 15em;
