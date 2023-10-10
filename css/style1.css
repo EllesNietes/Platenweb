@@ -5,7 +5,7 @@ header {
 }
 
 @font-face {
-  font-family: 'Playball', cursive;
+  font-family: 'Playball', Courier, monospace;
   src: url(/fonts/Playball-Regular.ttf)
 }
 
