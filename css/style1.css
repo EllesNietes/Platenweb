@@ -76,20 +76,13 @@ footer {
 
 .favoriet {
   display: flex;
-  flex-wrap: wrap;
-  border: rgb(31, 95, 64);
-  padding-top: 1.25em; 
-  padding-bottom: 1.25em;
+  padding: 1.25em 0;
   width: fit-content;
   background-color: rgb(31, 95, 64);
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 3em;
-  margin-top: 3em;
-  color: rgb(255, 255, 255);
-  flex-direction: row;
+  margin: 3em 30%;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .titel-favoriet {
@@ -109,15 +102,13 @@ footer {
   max-width: 40%;
   max-height: 40%;
   display: flex;
-  object-fit: contain; 
-  margin-left: 3em;    
+  object-fit: contain;
+  margin-left: 2em;
 }
 
 .container {
   display: flex;
-  width: 100%;
   justify-content: space-around;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -173,7 +164,6 @@ footer {
 
 .container-2 img {
   max-width: 95%;
-  object-fit: contain;
   margin: 0 1%;
 }
 
@@ -181,9 +171,7 @@ footer {
 
 .container-3 {
   display: flex;
-  width: 100%;
   justify-content: space-around;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -202,7 +190,6 @@ footer {
   width: 15em;
   margin-left: auto;
   margin-right: auto;
-  object-fit: contain;
 }
 
 .kopjes-pagina-3 {
@@ -233,7 +220,6 @@ footer {
   width: 15em;
   margin-left: auto;
   margin-right: auto;
-  object-fit: contain;
 }
 
 
@@ -244,21 +230,18 @@ footer {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
-  object-fit: contain;
   margin: auto; 
   margin-right: 0%; 
   flex-direction: row; 
-  flex-wrap: wrap;
 }
 
 .foto-winkel img {
   width: 30%;
+  object-fit: contain;
 }
 
 iframe {
   width: 30%;
-  height: 30%;
-  object-fit: contain;
 }
 
 .tekst-winkel {
