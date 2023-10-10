@@ -80,7 +80,6 @@ footer {
   padding-right: 1em;
 }
 
-
 /* hieronder is de 1e webpagina*/
 
 .favoriet {
@@ -168,6 +167,17 @@ footer {
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
+}
+
+.mijn-verzameling {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em 2em;
+  background-color: rgb(31, 95, 64);
 }
 
 /* Hieronder is de 2e webpagina*/
